@@ -1,4 +1,3 @@
-# Exercise 07
 print()
 print("hello World...")
 print()
