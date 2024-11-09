@@ -31,3 +31,9 @@ print(5 * "Jenny")  # JennyJennyJennyJennyJenny
 print("100" + "100")
 print(100 + 100)
 print()
+
+# Exercise 14
+num1 = input("Enter First Number :- \n")
+num2 = input("Enter Second Number :- \n")
+print(num1 + " + " + num2 + " = " + str(int(num1) + int(num2)))
+print()
