@@ -107,10 +107,10 @@ list_14[2] = False
 print(list_14)  # [12, 15, False, 'Jenny', 10.123569]
 list_14[0:4] = [15, 12, "Jenny", False, 10.12]
 print(list_14)  # [15, 12, 'Jenny', False, 10.12, 10.123569]
+print()
 
 # Case 14: Using min(), max() and len()
 list_15 = [1, 5, 9, 5, 3, 0]
 print(max(list_15))  # 9
 print(min(list_15))  # 0
 print(len(list_15))  # 6
-print()
