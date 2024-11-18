@@ -1,4 +1,4 @@
-# Coding Exercise 11
+# Coding Exercise 12
 print()
 
 print("Random Selector for Paying the Food Bill")
