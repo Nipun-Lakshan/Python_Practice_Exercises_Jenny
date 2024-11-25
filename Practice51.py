@@ -30,6 +30,18 @@ set1 = {'Ram', 'Shyam', 'Jenny'}
 set2 = {'Jenny', 'Jiya', 'Aakash'}
 set3 = {'Ankur', 'Pradeep', 'Ram'}
 set1.symmetric_difference_update(('Mohan', 'Shiva'))
-print(set1) # {'Ram', 'Shyam', 'Mohan', 'Jenny', 'Shiva'}
-print(set2) # {'Aakash', 'Jiya', 'Jenny'}
+print(set1)  # {'Ram', 'Shyam', 'Mohan', 'Jenny', 'Shiva'}
+print(set2)  # {'Aakash', 'Jiya', 'Jenny'}
+print()
+
+# Example 03
+
+set1 = {'Ram', 'Shyam', 'Jenny'}
+set2 = {'Jenny', 'Jiya', 'Aakash'}
+set3 = {'Ankur', 'Pradeep', 'Ram'}
+
+print(set1 ^ set2 ^ set3)  # {'Ankur', 'Pradeep', 'Shyam', 'Aakash', 'Jiya'}
+set1 ^= set2
+print(set1)  # {'Aakash', 'Ram', 'Shyam', 'Jiya'}
+print(set2)  # {'Jenny', 'Aakash', 'Jiya'}
 print()
